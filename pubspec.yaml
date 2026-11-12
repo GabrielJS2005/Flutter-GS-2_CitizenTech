@@ -1,0 +1,25 @@
+name: caminho_livre
+description: "Caminho Livre (CitizenTech) — Mobilidade urbana inclusiva, auditoria gamificada e zeladoria preditiva B2G."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo_caminho_livre.png
